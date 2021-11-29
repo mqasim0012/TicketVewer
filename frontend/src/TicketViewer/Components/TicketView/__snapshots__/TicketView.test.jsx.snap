@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ticket viewer dashboard Test renders correctly 1`] = `
+<div>
+  <h1>
+    Ticket view
+  </h1>
+  <p>
+    Click on any ticket to view
+  </p>
+  <p>
+    Showing 
+    1
+    -
+    0
+     of 
+    0
+     tickets
+  </p>
+</div>
+`;

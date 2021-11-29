@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ticket component behavior Ticket renders correctly 1`] = `
+<div
+  className="ticket "
+>
+  <div
+    className="status"
+  >
+    Status: 
+    closed
+  </div>
+  <div
+    className="subject"
+  >
+    Subject: 
+    Need help
+  </div>
+  <button
+    className="view-more"
+    onClick={[Function]}
+  >
+    View Details
+  </button>
+</div>
+`;
