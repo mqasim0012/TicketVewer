@@ -1,3 +1,3 @@
-import TicketView from "./View";
+import TicketView from "./Components";
 
 export default TicketView;

@@ -1,12 +1,14 @@
+import { React } from "react";
+
 import TicketView from "./TicketViewer";
 
 function App() {
-  return (
-    <div className="App">
-      Content<br/>
-      <TicketView />
-    </div>
-  );
+
+    return (
+        <div className="App">
+            <TicketView />
+        </div>
+    );
 }
 
 export default App;

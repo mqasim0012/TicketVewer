@@ -1,0 +1,6 @@
+.error {
+    background-color: rgb(199, 83, 83);
+    color: white;
+    padding: 20px;
+    max-width: 80%;
+}
