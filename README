@@ -2,3 +2,50 @@
 
 Name: Muhammad Qasim
 Email: qasimsaleem012@gmail.com
+Phone: +1 (585) 309-9506
+
+Technologies:
+    -   React.js frontend to develop the ticketing system
+    -   Express.js backend to fetch the tickets
+
+
+How to run:
+    -   Put AuthO token in .env file to ensure API works
+    -   Install node and npm if not present
+    -   In a terminal, from this directory, start backend by:
+    $   cd backend
+    $   make
+    and then, in a seperate terminal, starting from this directory, start frontend:
+    $   cd frontend
+    $   npm i
+    $   npm run start
+
+TESTS:
+    Since everything is exclusively frontend, tests are also exclusively frontend:
+    To run tests, go to frontend:
+    $   cd frontend
+    $   npm run test
+
+Further notes on app:
+    -   App Structure:
+        - GET call to zendesk API in backend/server.js
+        - Standard react structure:
+            - All user-written frontend files stored in frontend/TicketViewer
+        Each component has its own folder:
+            - index.js file to make imports simpler
+            - Test files for each component are stored in the same folder
+            - Some components have simple CSS files to ensure readable UI
+            - API calls are stored in seperate getTickets folder
+    -   The application has a "Loading..." text that appears until the promise is resolved (will timeout so it's fine).
+    -   Completely async app, including a defined promise in frontend/TicketViewer/getTickets/getTickets.js
+
+
+    -   Was unable to pay attention to UI given time constraints and other responsibilities during the week (still ensured it's reasonable)
+    -   Did not take advantage of supplementary APIs since I was told to fetch all tickets at once and only use that by the coding challenge prompt
+    -   Tests:
+        -   Render tests
+        -   Button click tests
+        -   No other type tests as there is no other UI/UX complication in my application design
+
+ASIDE:
+    IF you choose to run server processes in background, please remember to kill processes before trying to restart app
