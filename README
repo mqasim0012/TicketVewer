@@ -10,7 +10,7 @@ Technologies:
 
 
 How to run:
-    -   Put AuthO token in .env file to ensure API works
+    -   Put AuthO token in backend/.env file and put your subdomain in the GET call in backend/server.js to ensure API works
     -   Install node and npm if not present
     -   In a terminal, from this directory, start backend by:
     $   cd backend
@@ -30,7 +30,7 @@ Further notes on app:
     -   App Structure:
         - GET call to zendesk API in backend/server.js
         - Standard react structure:
-            - All user-written frontend files stored in frontend/TicketViewer
+            - All user-written frontend files stored in frontend/src/TicketViewer
         Each component has its own folder:
             - index.js file to make imports simpler
             - Test files for each component are stored in the same folder
